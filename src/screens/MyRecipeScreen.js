@@ -17,29 +17,42 @@ import {
   
   export default function MyRecipeScreen() {
     const navigation = useNavigation();
-    const [recipes, setrecipes] = useState([]);
+    const [recipes, setRecipes] = useState([]);
     const [loading, setLoading] = useState(true);
   
     useEffect(() => {
       const fetchrecipes = async () => {
-        
+        const storedRecipes = await AsyncStorage.getItem("customRecipes");
+        if (storedRecipes) {
+          setRecipes(JSON.parse(storedRecipes));
+        }
+        setLoading(false); // Loading is complete
         };
   
       fetchrecipes();
     }, []);
   
     const handleAddrecipe = () => {
+      navigation.navigate("RecipesFormScreen");
 
     };
   
     const handlerecipeClick = (recipe) => {
-
+      navigation.navigate("CustomRecipesScreen", { recipe });
     };
     const deleterecipe = async (index) => {
-    
+      try {
+        const updatedRecipes = [...recipes];
+        updatedRecipes.splice(index, 1); // Remove article from array
+        await AsyncStorage.setItem("customRecipes", JSON.stringify(updatedRecipes)); // Update AsyncStorage
+        setRecipes(updatedRecipes); // Update state
+      } catch (error) {
+        console.error("Error deleting the recipe:", error);
+      }
     };
   
     const editrecipe = (recipe, index) => {
+      navigation.navigate("NewsFormScreen", { recipeToEdit: recipe, recipeIndex: index });
 
     };
   
