@@ -50,10 +50,10 @@ export default function MyRecipeScreen() {
     });
   };
 
-  // Function to get the first few words of the description
+  // Function to get the first 7 words of the description
   const getDescriptionPreview = (description) => {
     const words = description.split(" ");
-    return words.slice(0, 10).join(" ") + (words.length > 10 ? "..." : ""); // Get the first 10 words
+    return words.slice(0, 7).join(" ") + (words.length > 7 ? "..." : ""); // Show the first 7 words
   };
 
   return (
