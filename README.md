@@ -4,6 +4,8 @@
 
 Welcome to **Foodie Recipe App**, your ultimate companion to discover, save, and manage delicious recipes from all around the world. This app allows users to browse through a collection of recipes, view their details, save their favorites, and even add their own culinary creations.
 
+![Foodie-App](https://github.com/Willie-Conway/Foodie-App/blob/9138d980c637117ae75d08fd58ccca85ea4296c2/Screenshots/Foodie-App.gif)
+
 ## 🧑‍🍳 What You Will Build
 
 In this project, you will build a React Native application that:
