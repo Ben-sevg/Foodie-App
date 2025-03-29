@@ -1,4 +1,6 @@
 # 🍽️ Foodie Recipe App 🥘
+![Foodie Recipe App](https://github.com/Willie-Conway/Foodie-App/blob/32bc6ec4118644830aec1f204bda072e0935d91a/Screenshots/Foodie%20App.png)
+
 
 Welcome to **Foodie Recipe App**, your ultimate companion to discover, save, and manage delicious recipes from all around the world. This app allows users to browse through a collection of recipes, view their details, save their favorites, and even add their own culinary creations.
 
@@ -98,11 +100,11 @@ Before getting started, ensure you have the following installed:
 
 ## 📸 Screenshots
 
-![App Screenshot 1](https://via.placeholder.com/150)
+![Home Screen](https://github.com/Willie-Conway/Foodie-App/blob/32bc6ec4118644830aec1f204bda072e0935d91a/Screenshots/All%20Recipes%20Home.png)
 
 *Main feed with recipe list.*
 
-![App Screenshot 2](https://via.placeholder.com/150)
+![Favorites](https://github.com/Willie-Conway/Foodie-App/blob/32bc6ec4118644830aec1f204bda072e0935d91a/Screenshots/Favorites.png)
 
 *Recipe detail page showing instructions and ingredients.*
 
