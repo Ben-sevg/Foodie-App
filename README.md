@@ -106,6 +106,9 @@ Before getting started, ensure you have the following installed:
 
 *Main feed with recipe list.*
 
+
+![My Favorites](https://github.com/Willie-Conway/Foodie-App/blob/5ac97b1ef166d97577e23e9e403b92a588fed0c0/Screenshots/My%20Favorites.png)
+
 ![Favorites](https://github.com/Willie-Conway/Foodie-App/blob/32bc6ec4118644830aec1f204bda072e0935d91a/Screenshots/Favorites.png)
 
 
