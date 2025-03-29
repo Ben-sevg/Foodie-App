@@ -120,6 +120,10 @@ Before getting started, ensure you have the following installed:
 
 ![Add or Delete](https://github.com/Willie-Conway/Foodie-App/blob/afce6e796bd5f5b455d04ca24118e67c7f5357bb/Screenshots/Add%20or%20Delete%20Item.png)
 
+![Save Recipe](https://github.com/Willie-Conway/Foodie-App/blob/b28e84e779501b9726711a4c41f0e6bf37d88889/Screenshots/Save%20Recipe.png)
+
+![Multiple Items](https://github.com/Willie-Conway/Foodie-App/blob/6a2766f94e51cd516775674f538e773fb1016323/Screenshots/My%20Multiple%20Items.png)
+
 *Recipe detail page showing instructions and ingredients.*
 
 ## 📋 To Do
