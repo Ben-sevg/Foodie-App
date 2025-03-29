@@ -108,6 +108,8 @@ Before getting started, ensure you have the following installed:
 
 ![Favorites](https://github.com/Willie-Conway/Foodie-App/blob/32bc6ec4118644830aec1f204bda072e0935d91a/Screenshots/Favorites.png)
 
+![My Food](https://github.com/Willie-Conway/Foodie-App/blob/b55758e0cde1312ff86f5c49cb032c0a27cfbf4f/Screenshots/My%20Recipe.png)
+
 *Recipe detail page showing instructions and ingredients.*
 
 ## 📋 To Do
